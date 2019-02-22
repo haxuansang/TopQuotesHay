@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1019920235188",
+    "firebase_url": "https://topquotes-a5689.firebaseio.com",
+    "project_id": "topquotes-a5689",
+    "storage_bucket": "topquotes-a5689.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019920235188:android:bd5c2524c1b67a93",
+        "android_client_info": {
+          "package_name": "com.appproteam.sangha.topquoteshay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019920235188-42e7vr862fr0v7tlv6rj0qise8f1g3fg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appproteam.sangha.topquoteshay",
+            "certificate_hash": "392dab9b3600ea85d30beef984c44040db5d57a4"
+          }
+        },
+        {
+          "client_id": "1019920235188-g29v19ln6001ha10k6neic9s2tac5dbn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7gezQnnqMzyBw6IT8O7sJWG0JHLCZ4-g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019920235188-g29v19ln6001ha10k6neic9s2tac5dbn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

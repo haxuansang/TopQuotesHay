@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:paddingLeft="12dp"
+   >
+
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    >
+    <TextView
+
+        android:textColor="#424242"
+        android:id="@+id/tvQuotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="“Tin rằng bạn có thể làm một điều gì đó đồng nghĩa với việc bạn đã đi được nửa đường đến đó”"
+        android:textSize="18sp"
+        />
+
+
+
+
+ </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <ImageButton
+        android:id="@+id/imbStar"
+        android:layout_marginLeft="40dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/star"
+      />
+     <ImageButton
+         android:id="@+id/imbCopy"
+         android:layout_width="30dp"
+         android:layout_height="30dp"
+
+         android:layout_toRightOf="@id/imbStar"
+         android:layout_marginLeft="18dp"
+         android:background="@drawable/copy"
+
+         />
+    <TextView
+        android:layout_toRightOf="@id/imbCopy"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/tvWriters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Theodore Roosevelt"
+        android:layout_centerInParent="true"
+        android:textColor="#33691E"/>
+    </RelativeLayout>
+</LinearLayout>
